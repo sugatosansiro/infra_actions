@@ -12,10 +12,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Run a one-line script
+    - name: Run a one-line script again
       run: echo Hello, world!
       
-    - name: Run a multi-line script
+    - name: Run a multi-line script again
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
